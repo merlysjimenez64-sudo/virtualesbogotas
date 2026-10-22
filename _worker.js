@@ -32,7 +32,7 @@ export default {
           `🇺🇸 Visitante de EE.UU. redirigido a inglés\nCiudad: ${city}\nIP: ${ip}`
         )
       );
-      return Response.redirect(new URL("/us.html", request.url).toString(), 302);
+      return Response.redirect(new URL("/ingles.html", request.url).toString(), 302);
     }
 
     // ==============================
